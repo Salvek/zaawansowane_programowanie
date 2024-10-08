@@ -1,1 +1,1 @@
-# zaawansowane_programowanie
+# zaawansowane_programowanie jest spoko
