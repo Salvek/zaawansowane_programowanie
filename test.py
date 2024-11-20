@@ -1,2 +1,2 @@
-print ('dupa')   
+print('dupa')   
 print('ddd')
