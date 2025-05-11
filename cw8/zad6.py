@@ -7,6 +7,6 @@ target_h, target_w = roi.shape[:2]
 h, w = image.shape[:2]
 if 200 + target_h <= h and 200 + target_w <= w:
     image[200:200+target_h, 200:200+target_w] = roi
-    show_image("Copied ROI", image)
+    show_image("Skopiowane ROI", image)
 else:
-    print("Error: ROI exceeds image dimensions.")
+    print("ROI wychodzi poza granice obrazu")
