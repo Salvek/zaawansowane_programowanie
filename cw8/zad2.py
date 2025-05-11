@@ -1,9 +1,7 @@
 import cv2
 
 image = cv2.imread("C:/Users/Salve/OneDrive/Obrazy/MYSZU.jpeg")
-
-cv2.imshow("MYSZU", image)
-flipped = cv2.flip(image, 1)
-cv2.imshow("MYSZU Flipped Horizontally", flipped)
+roi = image[0 : len(image) // 2, 0:-1]
+cv2.imshow("MYSZU Lower Half", roi)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
