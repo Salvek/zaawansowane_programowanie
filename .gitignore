@@ -1,3 +1,9 @@
 venv
 .idea
 /setup.cfg
+data
+dataset
+cropped
+/runs/**
+!/runs/plate/weights/best.pt
+!/runs/plate/weights/last.pt
